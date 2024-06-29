@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('images.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: #f0e8e8;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 26px;
+    font-size: 18px;
+    color: #f1e7e7;
+    background: #ff4081;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+.btn2{
+    display: inline-block;
+    padding: 8px 28px;
+    font-size: 19px;
+    color: #f1e7e7;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 382px;
+    margin-top: 4px;
+
+}
+
+.btn:hover {
+    background: #e73370;
+}
+
+main {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.text-content {
+    background: white;
+    margin-top: -60px;
+    padding: 65.5px;
+    background: url('stock-photo-side-view-sound-producer-headphones-enjoying-music-studio.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1270px 1000px;
+    
+}
+.text-content img{
+    margin-left: -118px;
+    border-radius: 39px;
+    height: 325px;
+}
+.text-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 0px;
+    font-style: italic;
+    color: #f8f3f3;
+}
+
+
+.text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+/*.text-content img{
+    padding-left: 333px;
+    height: 260px;
+    display: grid;
+    align-items: center;
+}
+
+.text-content a{
+    padding-top: 10px;
+}*/
+
+
+/*.image-gallery {
+    background: url('stock-photo-electric-guitar-player.jpeg');
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    padding: 4px;
+    padding-left: 600px;
+    background-size: 1270px 590px;
+}*/
+
+
+    
+
+
+
+
+.registration {
+    background: #f8f4f4;
+    padding: 60px 0;
+    background: url('stock-photo-microphone-in-the-music-studio.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1270px 1000px;
+    height: 600px;
+    
+}
+
+.registration .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.registration h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    font-style: italic;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.registration label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.registration input, .registration select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration button.btn {
+    align-self: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background: #151012;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.registration button.btn:hover {
+    background: #e73370;
+    cursor: pointer;
+}
+
+footer {
+    background: #1e1717;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+    margin-top: -60px;
+}
+
+footer p {
+    margin: 5px ;
+}
